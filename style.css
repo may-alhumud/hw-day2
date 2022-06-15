@@ -1,0 +1,202 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  color: #5a5a5a;
+}
+
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-nav>li>a, .navbar-brand {
+  color: #fff;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: rgba(199, 199, 199, 0.4) !important;
+  border-radius: 5px;
+}
+
+
+.carousel {
+  margin-bottom: 60px;
+}
+
+.carousel, .carousel .item, .carousel .item .active, .carousel-inner { 
+	height:100%;
+}
+
+
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel-inner {
+  height:100%;
+}
+
+
+.carousel .item {
+  height:100%;
+}
+
+.carousel .fill { 
+	width:100%;
+	height:100%;
+	background-size:cover;
+	background-position: center center;
+}
+
+.carousel .first-slide {
+  background-image:url("header1.jpg")
+}
+
+.carousel .second-slide {
+  background-image:url("header2.jpg")
+}
+
+.carousel .third-slide {
+  background-image:url("header3.jpeg")
+}
+
+
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+
+.featurette-divider {
+  margin: 80px 0; 
+}
+
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  padding: 3rem 8%;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 3rem;
+}
+
+.box-container .box {
+  box-shadow: rgb(0 0 0 / 30%) 10px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+}
+
+.box-container .box .image {
+  height: 80rem;
+  width:100%;
+  overflow: hidden;
+  margin-bottom: 2rem;
+
+}
+
+.box-container .box .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box-container .box .info {
+  padding: 0 3%;
+}
+
+.box-container .box .info h3 {
+  font-size: 3rem;
+  color: rgb(70, 66, 66);
+  text-transform: capitalize;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.box-container .box .info p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  line-height: 1.2;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.box-container .box .btn {
+  padding: 0 3%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  cursor: pointer;
+}
+
+.box-container .box .btn a {
+  text-decoration: none;
+  color: rgb(136, 132, 132);
+  font-size: 2rem;
+  border: 2px solid rgb(136, 132, 132);
+  border-radius: 0%;
+  padding: 1rem 4rem;
+  text-align: center;
+  font-variant: small-caps;
+  font-weight: 700;
+}
+
+.box-container .box .btn a:hover {
+  color: black;
+  background-color: #fff;
+}
+
+
+
+
+
+
